@@ -2,9 +2,9 @@
 
 	document.getElementById('operar_json').onclick = function() { 
 		var json_texto = '{ "employees" : [' +
-		'{ "firstName":"John" , "lastName":"Doe" },' +
-		'{ "firstName":"Anna" , "lastName":"Smith" },' +
-		'{ "firstName":"Peter" , "lastName":"Jones" } ]}';
+		'{ "firstName":"James" , "lastName":"Doe" },' +
+		'{ "firstName":"Annette" , "lastName":"Smith" },' +
+		'{ "firstName":"Peter" , "lastName":"Joneson" } ]}';
 
 		var objeto = JSON.parse(json_texto); 
 		empleados = objeto.employees;
