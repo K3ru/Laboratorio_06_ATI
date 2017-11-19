@@ -47,7 +47,7 @@ function section_one() {
 	document.getElementById('section_five').style.display = 'none';
 }
 
-function section_two() {
+function section_four() {
 	document.getElementById('section_two').style.display = 'block';
 	document.getElementById('section_one').style.display = 'none';
 	document.getElementById('section_three').style.display = 'none';
@@ -55,7 +55,7 @@ function section_two() {
 	document.getElementById('section_five').style.display = 'none';
 }
 
-function section_three() {
+function section_two() {
 	document.getElementById('section_three').style.display = 'block';
 	document.getElementById('section_one').style.display = 'none';
 	document.getElementById('section_two').style.display = 'none';
@@ -63,7 +63,7 @@ function section_three() {
 	document.getElementById('section_five').style.display = 'none';
 }
 
-function section_four() {
+function section_three() {
 	document.getElementById('section_four').style.display = 'block';
 	document.getElementById('section_one').style.display = 'none';
 	document.getElementById('section_two').style.display = 'none';
